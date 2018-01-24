@@ -1,0 +1,21 @@
+/* 
+    1.把父类设置为text-align:center,文本居中.
+    2.子类设置为块级元素, display: inline-block;
+    or
+    css3 flex
+    1.display:flex
+    2.justify-content: center
+*/
+.inline-block-center{
+    text-align: center;
+    /* width: 500px; */
+    background-color: lightcoral;
+}
+.inline-block-center div{
+    display: inline-block;
+    text-align: center;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}

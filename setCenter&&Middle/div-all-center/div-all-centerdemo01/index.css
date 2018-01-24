@@ -1,0 +1,21 @@
+/* 
+    1.设定级块元素宽高
+    2.设定margin:auto
+    3.position: fixed 也能居中
+*/
+.container{
+    position: fixed;
+    top: 0;
+    right:0;
+    bottom:0;
+    left: 0;
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+}
+.child{
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+}

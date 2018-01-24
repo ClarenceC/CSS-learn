@@ -1,0 +1,29 @@
+.father{
+    width: 600px;
+    height: 400px;
+    background: #f1f1f1;
+    position: relative;
+}
+.child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.otherfather{
+    width: 600px;
+    height: 400px;
+    background: #f1f1f1;
+    position: fixed;
+}
+
+.otherchild{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 50vh 0 0 50vw;
+    transform: translate(-50%, -50%);
+    background-color: lightcoral;
+}

@@ -1,0 +1,17 @@
+.father{
+    display: table;
+    background-color: lightcoral;
+    height: 500px;
+}
+.child{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.flex-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    background-color: lightblue;
+}

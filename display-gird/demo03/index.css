@@ -1,0 +1,17 @@
+body {
+    padding: 50px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 10px 100px 10px 100px;
+    grid-template-rows: auto 10px auto;
+}
+.box {
+    background-color: #444;
+    color: #fff;
+    font-size: 150%;
+    padding: 20px;
+}
+.b,.d,.g,.i {
+    background-color: red;
+}

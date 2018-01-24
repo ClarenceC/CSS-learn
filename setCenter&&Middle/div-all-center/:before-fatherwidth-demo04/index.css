@@ -1,0 +1,14 @@
+.father{
+    text-align: center;
+}
+
+.father:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.child {
+    display: inline-block;
+}

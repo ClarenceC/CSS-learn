@@ -1,0 +1,23 @@
+.share-list{
+    display: flex;
+}
+.share-item:nth-child(1),
+.share-item:nth-child(3) {
+    flex: 1;
+    width: 1%;
+    /* border: 1px solid #000; */
+}
+.share-item:nth-child(2) {
+    width: 60px;
+    /* height: 60px; */
+    /* border-radius: 50%; */
+    /* background-color: lightcoral; */
+}
+.item-inner {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    margin-left: auto;
+    margin-right: auto;
+}

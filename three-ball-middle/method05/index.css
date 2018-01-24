@@ -1,0 +1,27 @@
+.share-item:nth-child(2) {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 60px;
+}
+.share-item:nth-child(1),
+.share-item:nth-child(3) {
+    float: left;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.share-item:nth-child(3) {
+    padding-left: 30px;
+}
+.share-item:nth-child(1) {
+    padding-right: 30px;
+}
+.item-inner {
+    display: inline-block;
+    vertical-align: middle;
+    background-color: lightcoral;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}

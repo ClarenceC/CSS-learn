@@ -1,0 +1,17 @@
+.share-list-wrap {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.share-list {
+    display: flex;
+    margin-left: -45px;
+    margin-right: -45px;
+    justify-content: space-between;
+    border: 1px solid #000;
+}
+.share-item {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: lightcoral;
+}

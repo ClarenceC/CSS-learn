@@ -1,0 +1,15 @@
+.share-list {
+    display: flex;
+    justify-content: space-between;
+}
+.share-list:before,
+.share-list:after {
+    content: "";
+    /* border: 1px solid #000; */
+}
+.share-item {
+    width: 60px;
+    height: 60px;
+    background-color: lightcoral;
+    border-radius: 50%;
+}
