@@ -1,0 +1,11 @@
+.triangle {
+    width: 200px;
+    height: 200px;
+    background: url(https://goo.gl/BeSyyD);
+
+    /*
+        clip-path css 的新属性，它只显示元素的一部分并隐藏其余部分
+        需要使用到 polygon 方法，三角形三个点 ，多边形更多的点也行。
+    */
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+}
