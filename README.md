@@ -9,7 +9,7 @@
 - [* CSS3的动画属性](https://juejin.im/post/5a424a796fb9a045023be66c)
 - [* 详解 CSS 属性 - 伪类和伪元素的区别](https://segmentfault.com/a/1190000000484493)
 - [* 【建议收藏】css晦涩难懂的点都在这啦](https://juejin.cn/post/6888102016007176200?utm_source=gold_browser_extension%3Futm_source%3Dgold_browser_extension#heading-43)
-
+- [* css精髓：这些布局你都学废了吗？](https://juejin.cn/post/6907027007318687751?utm_source=gold_browser_extension)
 
 ### CSS效果实现
 
