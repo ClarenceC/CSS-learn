@@ -1,5 +1,19 @@
 # CSS3 学习与知识点
 
+## CSS知识点
+
+#### 行内元素与块级元素的区别
+
+HTML4中，元素被分成两大类: inline (内联元素) 与 block (块级元素)
+1. 格式上，行内元素不会以新行开始，而块级元素会新起一行。
+1. 内容上，行内元素只能包含文本和其他行内元素。而块级元素可以包含行内元素和其他块级元素
+1. 行内元素和块级元素，在盒模型属性上的不同： 行内元素设置 width, height 无效(可设 line-height), 设置 margin 和 padding 上下不会产生影响。
+
+
+#### HTML 5元素的分类
+HTML5 元素主要分为 7 类, Metadata Flow Sectioning Heading Phrasing Embedded Interactive
+
+### 知识点连接
 (* 星号代表外链文章)
 
 - [BFC是什么?](./CSSKnowledge/BFC.md)
